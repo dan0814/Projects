@@ -4,11 +4,11 @@
 # This function calculates the average and the standard deviation (sample or population)
 # of a set of numbers from a user defined list
 
-# The user inputs a list of numbers and specifies whether they want to calculate the
+# The user inputs two arguments.  The first argument is a list of numbers and the second
+# argument ('sample' or 'population') specifies whether the user wants to calculate the
 # sample or population standard deviation
 
-# The function calculates and outputs the average and the standard deviation (sample
-# or population)
+# The function outputs the average and the standard deviation (sample or population)
 
 
 def calculate_avg_and_sd(user_list_of_num, sample_or_population):
