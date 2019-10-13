@@ -81,5 +81,5 @@ the_results = calc_unpaired_hetero_t_test(data_set1, data_set2)
 print('The t(calc) value is', the_results[0])
 print('The degrees of freedom is', the_results[1])
 
-# when the t(calc) value and the degrees of freedom is compared to t critical values we
+# when the t(calc) value and the degrees of freedom is compared to critical t values we
 # can conclude that the mean of the two data sets is significantly different (0.005 < p < 0.01)
