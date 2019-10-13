@@ -8,7 +8,7 @@
 # argument ('sample' or 'population') specifies whether the user wants to calculate the
 # sample or population standard deviation
 
-# The function outputs the average and the standard deviation (sample or population)
+# The function returns the average and the standard deviation (sample or population)
 
 
 def calculate_avg_and_sd(user_list_of_num, sample_or_population):
