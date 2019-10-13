@@ -33,7 +33,7 @@ def calculate_avg_and_sd(user_list_of_num, sample_or_population):
     if sample_or_population == 'population':
         the_sd = ((total_sum_of_numerator) / (len(user_list_of_num))) ** 0.5
 
-    # 3RD) return the results as a tuple
+    # 3RD) RETURN RESULT AS TUPLE
     return the_average, the_sd
 
 
