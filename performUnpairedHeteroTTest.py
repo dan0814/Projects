@@ -13,7 +13,7 @@ be compared to critical t values to determine if p value is small (~0.05) """
 # The function returns the t(calc) value and the degrees of freedom
 
 
-def calc_unpaired_hetero_t_test(data_set1, data_set2):
+def perform_unpaired_hetero_t_test(data_set1, data_set2):
     import math
     # 1ST) CALCULATE THE MEANS
     # determine the first mean
@@ -77,7 +77,7 @@ def calc_unpaired_hetero_t_test(data_set1, data_set2):
 data_set1 = [27, 28, 30, 29, 28, 28, 28, 31, 25, 23, 21, 26, 28, 30, 27]
 data_set2 = [25, 26, 28, 27, 23, 21, 19, 28, 23, 24, 26, 28, 25, 26, 25, 21, 24]
 
-the_results = calc_unpaired_hetero_t_test(data_set1, data_set2)
+the_results = perform_unpaired_hetero_t_test(data_set1, data_set2)
 print('The t(calc) value is', the_results[0])
 print('The degrees of freedom is', the_results[1])
 
