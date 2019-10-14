@@ -35,7 +35,7 @@ def convert_octal_to_decimal(octal_num):
         octal_num_list.append(int(x))
 
     # 2ND) CALCULATE THE INDIVIDUAL TERMS TO BE SUMMED TO GET THE EQUIVALENT
-    # DECIMAL NUMBER AND PUT THE TERMS INTO "octal_num_list"
+    # DECIMAL NUMBER AND PUT THE TERMS INTO "num_to_sum"
     num_to_sum = []
     ii = len(octal_num_list) - 1
     for jj in octal_num_list:
@@ -43,7 +43,7 @@ def convert_octal_to_decimal(octal_num):
         num_to_sum.append(digit)
         ii -= 1
 
-    # 3RD) SUM THE VALUES FROM "binary_num_list" TO OBTAIN EQUIVALENT DECIMAL
+    # 3RD) SUM THE VALUES FROM "num_to_sum" TO OBTAIN EQUIVALENT DECIMAL
     # NUMBER
     decimal_num = 0
     for kk in range(len(num_to_sum)):
