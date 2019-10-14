@@ -1,5 +1,5 @@
 """This file contains two functions.  The first function converts a decimal number to an
-octal number and the second function converts an octal number to a decimal """
+octal number and the second function converts an octal number to a decimal number """
 
 # This function converts a decimal number to an octal number
 # The user inputs a decimal number
